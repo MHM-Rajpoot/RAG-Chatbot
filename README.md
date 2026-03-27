@@ -20,6 +20,10 @@ The idea is: **scrape once, index once, chat many times.** Only re-run scraping 
 
 ## Architecture
 
+The workflow diagram below shows how data moves through the RAG pipeline:
+
+![University of Salford RAG workflow](meta/WorkFlow.png)
+
 ```
 salford.ac.uk pages
         │
@@ -53,6 +57,24 @@ salford.ac.uk pages
 ---
 
 ## Technologies Used
+
+Main technologies used in this project:
+
+- Python 3
+- Google Colab
+- Google Drive
+- Requests
+- BeautifulSoup4
+- lxml
+- sentence-transformers
+- `all-MiniLM-L6-v2`
+- ChromaDB
+- PyTorch
+- Hugging Face Transformers
+- Qwen2.5-7B-Instruct
+- accelerate
+- bitsandbytes
+- tqdm
 
 ### Core Pipeline
 
